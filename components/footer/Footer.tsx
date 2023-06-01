@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import {
@@ -5,12 +6,50 @@ import {
   BsChatLeftDots,
   BsEnvelopePaper,
   BsClockHistory,
+  BsQuote,
 } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <div className="rounded-tl-3xl rounded-tr-3xl bg-[url(/footer-bg.svg)] bg-cover bg-center bg-no-repeat pb-10 pt-20">
       <div className="mx-auto max-w-6xl px-6">
+        {/* TOP Footer */}
+        <div className="mb-16 flex flex-col gap-8 sm:flex-row">
+          <div className="w-full sm:w-1/4">
+            <div className="flex items-center justify-center gap-4">
+              <Image
+                src="/pancasila-icon.png"
+                alt="Pancasila"
+                width={48}
+                height={48}
+                className="h-12 w-auto"
+              />
+              <span className="text-sm font-bold text-white">
+                Kementerian Koordinator Bidang Perekonomian Republik Indonesia
+              </span>
+            </div>
+          </div>
+          <div className="relative w-full rounded-3xl bg-white/75 p-8 sm:w-3/4">
+            <div className="flex w-full flex-col gap-2 sm:pl-4">
+              <BsQuote className="absolute left-2 top-2 text-6xl text-[#142b72]/25" />
+              <p className="text-sm italic text-[#212529]">
+                Program Kartu Prakerja berlanjut pada tahun 2023 dengan skema
+                normal, di mana bantuan pelatihan akan fokus kepada pengembangan
+                kompetensi angkatan kerja, peningkatan produktivitas, dan daya
+                saing angkatan kerja; serta pengembangan kewirausahaan.
+                Pelaksanaan skema normal diatur dalam Peraturan Presiden Nomor
+                113 Tahun 2022 yang aturan pelaksanaannya tertera pada Permenko
+                Perekonomian Nomor 17 Tahun 2022.
+              </p>
+              <span className="mt-2 h-[3px] w-6 bg-[#142b72]/75"></span>
+              <span className="text-xs font-bold text-[#142b72]/75">
+                Airlangga Hartarto, Menteri Koordinator Bidang Perekonomian
+                Republik Indonesia
+              </span>
+            </div>
+          </div>
+        </div>
+        {/* BOTTOM FOOTER */}
         <div className="flex flex-col gap-10 sm:flex-row sm:justify-between">
           {/* Flex Col */}
           <div className="w-full sm:flex-1">
@@ -141,7 +180,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* Flex Col */}
-          <div className="w-full rounded-2xl bg-white p-6 sm:w-2/6">
+          <div className="w-full rounded-2xl bg-white p-8 sm:w-2/6">
             <h4 className="mb-4 font-medium text-[#142b72]">
               Layanan Contact Center Prakerja
             </h4>
