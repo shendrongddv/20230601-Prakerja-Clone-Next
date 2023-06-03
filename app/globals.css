@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply max-w-max rounded-full px-6 py-3 text-sm font-bold text-white transition hover:shadow-lg;
+}
+
+.btn-accent {
+  @apply bg-red-500 text-white transition-colors hover:bg-red-600;
+}

@@ -4,11 +4,11 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Hero = () => {
   return (
     <section
-      className="bg-[url(/hero-img.svg)] bg-cover bg-center bg-no-repeat"
       id="hero"
+      className="bg-[url(/hero-img.svg)] bg-cover bg-center bg-no-repeat"
     >
       <div className="mx-auto max-w-6xl">
-        <div className="relative flex min-h-screen items-center justify-center px-6 pt-16 text-white sm:px-0 sm:pt-0">
+        <div className="relative flex min-h-screen items-center  justify-center overflow-hidden px-6 pt-16 text-white sm:px-0 sm:pt-0">
           <div className="flex w-full flex-col items-center text-center sm:w-2/4">
             <h1 className="text-3xl font-semibold sm:text-5xl">
               Gali potensi dirimu dengan Kartu Prakerja
