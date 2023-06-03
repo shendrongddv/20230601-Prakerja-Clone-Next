@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.h2 {
+  @apply text-2xl font-semibold sm:text-4xl;
+}
+
+.h3 {
+  @apply text-lg font-semibold sm:text-xl;
+}
+
+.container {
+  @apply mx-auto max-w-6xl;
+}
+
 .btn {
   @apply max-w-max rounded-full px-6 py-3 text-sm font-bold text-white transition hover:shadow-lg;
 }

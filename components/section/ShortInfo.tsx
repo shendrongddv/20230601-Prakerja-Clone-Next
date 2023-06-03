@@ -37,7 +37,7 @@ const ShortInfo = () => {
     >
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 sm:flex-row sm:justify-between">
         <div className="w-full flex-col space-y-4 sm:w-6/12">
-          <h2 className="text-4xl font-semibold">Tentang Kartu Prakerja</h2>
+          <h2 className="h2">Tentang Kartu Prakerja</h2>
           <p>
             Program Kartu Prakerja adalah program pengembangan kompetensi kerja
             yang ditujukan untuk pencari kerja, pekerja terkena PHK, dan/atau
@@ -60,7 +60,7 @@ const ShortInfo = () => {
           </div>
         </div>
         <div className="flex w-screen flex-col rounded-3xl bg-[#f7f7f7]/80 p-8 sm:w-6/12">
-          <h3 className="w-max border-b-[3px] border-[#4f8fda] text-xl font-semibold">
+          <h3 className="h3 w-max border-b-[3px] border-[#4f8fda]">
             Syarat Mendaftar
           </h3>
           <ul className="relative mt-6 flex flex-col space-y-3 border-l border-dashed border-[#142b72]/50">
