@@ -1,3 +1,4 @@
+import Artikel from "@/components/section/Artikel";
 import Hero from "@/components/section/Hero";
 import IntroVideo from "@/components/section/IntroVideo";
 import Prosedur from "@/components/section/Prosedur";
@@ -10,6 +11,7 @@ export default function Home() {
       <ShortInfo />
       <IntroVideo />
       <Prosedur />
+      <Artikel />
     </main>
   );
 }

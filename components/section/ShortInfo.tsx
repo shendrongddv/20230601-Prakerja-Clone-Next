@@ -45,11 +45,11 @@ const ShortInfo = () => {
           </p>
           <Link href="/">Pelajari Lebih Lanjut</Link>
           <Image
-            src="/img_tentang_prakerja_home.png"
+            src="/section-image-1.png"
             alt="image"
             width={462}
             height={273}
-            className="h-auto w-full"
+            className="h-auto w-full sm:w-4/5"
           />
           <div className="relative rounded-3xl bg-[#c5dff3] p-8">
             <FaWheelchair className="absolute -top-3 right-2 rounded-full bg-[#142b72] p-2 text-[40px] text-white" />

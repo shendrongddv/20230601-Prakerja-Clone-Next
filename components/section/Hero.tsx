@@ -33,7 +33,7 @@ const Hero = () => {
               Masukkan e-mail untuk membuat akun Prakerja
             </span>
             <Image
-              src="/img_girl4.png"
+              src="/hero-female-img.png"
               width={400}
               height={400}
               alt="image"
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
           {/* ##### */}
           <Image
-            src="/img_girl4.png"
+            src="/hero-female-img.png"
             width={400}
             height={400}
             alt="image"
@@ -50,7 +50,7 @@ const Hero = () => {
           />
           {/* ##### */}
           <Image
-            src="/img_boy_new.png"
+            src="/hero-male-img.png"
             width={400}
             height={400}
             alt="image"
