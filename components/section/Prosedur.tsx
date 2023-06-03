@@ -53,7 +53,7 @@ const Prosedur = () => {
     <section className="px-6 py-16">
       <div className="container">
         <h2 className="h2">Langkah Mudah Kartu Prakerja</h2>
-        <div className="mt-12 grid gap-8 sm:grid-cols-3">
+        <div className="mt-12 grid grid-flow-dense gap-8 sm:grid-cols-3">
           {items?.map((item) => (
             <div
               key={item.id}
@@ -71,6 +71,31 @@ const Prosedur = () => {
               </p>
             </div>
           ))}
+          {/* ##### */}
+          <div className="bg-image-1 rounded-3xl sm:col-span-2">
+            <div className="relative p-8">
+              {/*  */}
+              <div className="z-10 sm:w-3/5">
+                <h2 className="h2">Tunggu apa lagi?</h2>
+                <p>
+                  Belajar gratis, dapat sertifikat dan insentif pula. Dengan
+                  Kartu Prakerja, raih masa depan lebih cerah!
+                </p>
+                <button className="btn btn-accent mt-24 sm:ml-auto sm:mt-6">
+                  Daftar Sekarang
+                </button>
+              </div>
+              {/*  */}
+              <Image
+                src="/home-step-cta-img.webp"
+                alt="image"
+                width={872}
+                height={928}
+                className="absolute bottom-0 right-0 z-0 h-auto w-3/5 rounded-br-3xl sm:right-8 sm:h-[250px] sm:w-auto sm:rounded-br-none"
+              />
+              {/*  */}
+            </div>
+          </div>
         </div>
       </div>
     </section>

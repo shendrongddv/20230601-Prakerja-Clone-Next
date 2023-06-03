@@ -21,3 +21,7 @@
 .btn-accent {
   @apply bg-red-500 text-white transition-colors hover:bg-red-600;
 }
+
+.bg-image-1 {
+  @apply bg-[url(/home-step-cta-bg.webp)] bg-cover bg-center bg-no-repeat;
+}
