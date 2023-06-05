@@ -19,7 +19,7 @@ const IntroVideo = () => {
           src="/img_shape_orange_right.png"
           alt="image"
           width={720}
-          height={467.5}
+          height={467}
           className="absolute bottom-20 right-0 top-[10%] h-auto w-2/12
           "
         />
