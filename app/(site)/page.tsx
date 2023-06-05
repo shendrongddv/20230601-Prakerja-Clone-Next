@@ -1,6 +1,7 @@
 import Artikel from "@/components/section/Artikel";
 import Hero from "@/components/section/Hero";
 import IntroVideo from "@/components/section/IntroVideo";
+import Mitra from "@/components/section/Mitra";
 import Prosedur from "@/components/section/Prosedur";
 import ShortInfo from "@/components/section/ShortInfo";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <ShortInfo />
       <IntroVideo />
       <Prosedur />
+      <Mitra />
       <Artikel />
     </main>
   );

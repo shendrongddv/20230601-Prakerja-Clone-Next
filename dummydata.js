@@ -1,44 +1,98 @@
-const Prosedur = [
+export const DigitalPlatform = [
   {
     id: 1,
-    title: "Daftar",
-    text: "Buat akun Prakerja dengan data diri kamu. Siapkan e-mail, NIK, nomor KK, nomor HP yang masih aktif dan selesaikan tes kemampuan dasar untuk menyelesaikan proses pendaftaran.",
-    img: "/step/img-home-step-01.svg",
+    title: "Siap Kerja",
+    url: "siapkerja.com",
+    img: "/platform/digital/siapkerja.png",
   },
   {
     id: 2,
-    title: "Gabung Gelombang",
-    text: "Ikut Seleksi dengan gabung gelombang. Tunggu pengumuman hasil seleksinya.",
-    img: "/step/img-home-step-02.svg",
+    title: "Tokopedia",
+    url: "tokopedia.com",
+    img: "/platform/digital/tokopedia.png",
   },
   {
     id: 3,
-    title: "Pilih Pelatihan",
-    text: "Gunakan saldo pelatihan sebesar Rp 3,5 juta, pilih yang kamu butuhkan di Mitra Platform Digital dan bayar dengan nomor Kartu Prakerjamu. Pastikan rekening bank/e-wallet kamu sudah tersambung sebelum membeli pelatihan.",
-    img: "/step/img-home-step-03.svg",
+    title: "Bukalapak",
+    url: "bukalapak.com",
+    img: "/platform/digital/bukalapak.png",
   },
   {
     id: 4,
-    title: "Ikuti Pelatihan",
-    text: "Kerjakan pre-test dan post-test selesaikan pelatihan dan dapatkan sertifikat.",
-    img: "/step/img-home-step-04.svg",
+    title: "Karier",
+    url: "karier.com",
+    img: "/platform/digital/karier.png",
   },
   {
     id: 5,
-    title: "Beri Rating dan Ulasan",
-    text: "Berikan rating dan ulasan terhadap pelatihan yang telah kamu selesaikan di dashboard Prakerjamu.",
-    img: "/step/img-home-step-05.svg",
+    title: "Pintas",
+    url: "pintar.com",
+    img: "/platform/digital/pintar.png",
   },
   {
     id: 6,
-    title: "Dapatkan Insentif",
-    text: "Tunggu beberapa hari, kamu akan menerima insentif Rp.600.000 di rekening bank/e-walletmu.",
-    img: "/step/img-home-step-06.svg",
+    title: "Pijar",
+    url: "pijar.com",
+    img: "/platform/digital/pijar.png",
+  },
+];
+
+export const PaymentPlatform = [
+  {
+    id: 1,
+    title: "Bank BNI",
+    url: "bni.com",
+    img: "/platform/payment/bni.png",
   },
   {
-    id: 7,
-    title: "Isi Survey Evaluasi",
-    text: "Jawab 2 survei evaluasi di dashboard Prakerjamu dan dapatkan insentif Rp.50.000 untuk setiap survei.",
-    img: "/step/img-home-step-07.svg",
+    id: 2,
+    title: "Bank BCA",
+    url: "bca.com",
+    img: "/platform/payment/bca.png",
+  },
+  {
+    id: 3,
+    title: "OVO",
+    url: "ovo.com",
+    img: "/platform/payment/ovo.png",
+  },
+  {
+    id: 4,
+    title: "Link Aja",
+    url: "linkaja.com",
+    img: "/platform/payment/linkaja.png",
+  },
+  {
+    id: 5,
+    title: "GoPay",
+    url: "gopay.com",
+    img: "/platform/payment/gopay.png",
+  },
+  {
+    id: 6,
+    title: "DANA",
+    url: "dana.com",
+    img: "/platform/payment/dana.png",
+  },
+];
+
+export const JobPlatform = [
+  {
+    id: 1,
+    title: "Karir",
+    url: "karir.com",
+    img: "/platform/job/karir.png",
+  },
+  {
+    id: 2,
+    title: "Top Karir",
+    url: "topkarir.com",
+    img: "/platform/job/topkarir.png",
+  },
+  {
+    id: 3,
+    title: "Jobstreet",
+    url: "jobstreet.com",
+    img: "/platform/job/jobstreet.png",
   },
 ];
