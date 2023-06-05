@@ -16,13 +16,14 @@ const Pakar = () => {
               className="flex flex-col rounded-3xl bg-white p-6 transition duration-300 hover:-translate-y-2 hover:shadow-md sm:p-10"
             >
               <div className="flex gap-4 sm:gap-8">
-                <Image
-                  src={item.foto}
-                  alt={item.nama}
-                  width={128}
-                  height={128}
-                  className="h-16 w-16 sm:h-32 sm:w-32"
-                />
+                <div className="h-16 w-16 sm:h-32 sm:w-32">
+                  <Image
+                    src={item.foto}
+                    alt={item.nama}
+                    width={128}
+                    height={128}
+                  />
+                </div>
                 <div className="flex flex-col items-start gap-1">
                   <h4 className="text-base font-bold sm:text-xl sm:leading-normal">
                     {item.nama}
