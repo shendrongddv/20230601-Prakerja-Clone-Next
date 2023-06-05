@@ -10,6 +10,7 @@ const IntroVideo = () => {
             alt="images"
             width={1928}
             height={1253}
+            loading="eager"
             className="z-20 w-11/12"
           />
         </div>
