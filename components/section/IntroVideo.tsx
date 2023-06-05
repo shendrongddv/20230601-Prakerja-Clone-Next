@@ -6,7 +6,7 @@ const IntroVideo = () => {
       <div className="container relative">
         <div className="flex justify-center">
           <Image
-            src="/section-img-2.webp"
+            src="/section-img-2.png"
             alt="images"
             width={1928}
             height={1253}
