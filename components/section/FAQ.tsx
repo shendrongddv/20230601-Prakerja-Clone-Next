@@ -12,10 +12,10 @@ const FAQ = () => {
     <section className="bg-white px-6 py-16">
       <div className="container">
         <div className="flex flex-col gap-8 sm:flex-row">
-          <div className="w-full border sm:w-1/4">
+          <div className="w-full sm:w-1/4">
             <h2 className="h2">Pertanyaan Populer</h2>
           </div>
-          <div className="w-full space-y-4 border sm:w-3/4">
+          <div className="w-full space-y-4 sm:w-3/4">
             {items?.map((item) => (
               <Disclosure key={item.id}>
                 {({ open }) => (
