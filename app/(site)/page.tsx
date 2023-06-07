@@ -1,4 +1,5 @@
 import Artikel from "@/components/section/Artikel";
+import FAQ from "@/components/section/FAQ";
 import Hero from "@/components/section/Hero";
 import IntroVideo from "@/components/section/IntroVideo";
 import Mitra from "@/components/section/Mitra";
@@ -16,6 +17,7 @@ export default function Home() {
       <Mitra />
       <Pakar />
       <Artikel />
+      <FAQ />
     </main>
   );
 }
