@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -23,9 +24,11 @@ const HeroB = () => {
               placeholder="Masukkan e-mail kamu"
               className="w-full rounded-full border-none bg-white/50 text-slate-500 placeholder-gray-500"
             />
-            <button className="absolute right-0 top-1/2 z-10 mr-2 flex aspect-square -translate-y-1/2 items-center justify-center rounded-full bg-[#4f8fda] p-2 shadow hover:shadow-lg">
+            <Link href="/"
+              className="absolute right-0 top-1/2 z-10 mr-2 flex aspect-square -translate-y-1/2 items-center justify-center rounded-full bg-[#4f8fda] p-2 shadow hover:shadow-lg"
+            >
               <AiOutlineArrowRight className="text-lg text-white" />
-            </button>
+            </Link>
           </form>
           <span className="mb-6 mt-4 text-xs text-white sm:text-sm">
             Masukkan e-mail untuk membuat akun Prakerja
