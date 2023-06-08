@@ -32,11 +32,11 @@ const ShortInfo = () => {
   return (
     <section
       id="shortInfo"
-      className="rounded-tl-3xl rounded-tr-3xl bg-white px-6 py-20
+      className="relative isolate z-10 -mt-8 rounded-tl-3xl rounded-tr-3xl bg-white px-6 py-20
     "
     >
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 sm:flex-row sm:justify-between">
-        <div className="w-full flex-col space-y-4 sm:w-6/12">
+      <div className="container mx-auto grid sm:grid-cols-2">
+        <div className="w-full flex-col space-y-4">
           <h2 className="h2">Tentang Kartu Prakerja</h2>
           <p>
             Program Kartu Prakerja adalah program pengembangan kompetensi kerja
@@ -59,7 +59,7 @@ const ShortInfo = () => {
             </p>
           </div>
         </div>
-        <div className="flex w-screen flex-col rounded-3xl bg-[#f7f7f7]/80 p-8 sm:w-6/12">
+        <div className="relative flex w-screen flex-col rounded-3xl bg-[#f7f7f7]/80 p-8">
           <h3 className="h3 w-max border-b-[3px] border-[#4f8fda]">
             Syarat Mendaftar
           </h3>

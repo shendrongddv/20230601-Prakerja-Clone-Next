@@ -37,9 +37,6 @@ const FAQ = () => {
                       enter="transition duration-500 ease-out"
                       enterFrom="transform scale-95 opacity-0 pt-0"
                       enterTo="transform scale-100 opacity-100 pt-4"
-                      // leave="transition duration-300 ease-out"
-                      // leaveFrom="transform scale-100 opacity-100"
-                      // leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel>
                         <p className="text-sm opacity-90 sm:text-base">

@@ -34,8 +34,8 @@ const Hero = () => {
             </span>
             <Image
               src="/hero-female-img.png"
-              width={400}
-              height={400}
+              width={360}
+              height={360}
               alt="image"
               className="mt-4 block h-auto w-full select-none sm:hidden"
             />
@@ -43,16 +43,16 @@ const Hero = () => {
           {/* ##### */}
           <Image
             src="/hero-female-img.png"
-            width={400}
-            height={400}
+            width={360}
+            height={360}
             alt="image"
             className="absolute bottom-0 left-0 hidden h-auto w-2/6 select-none sm:block"
           />
           {/* ##### */}
           <Image
             src="/hero-male-img.png"
-            width={400}
-            height={400}
+            width={360}
+            height={360}
             alt="image"
             className="absolute bottom-0 right-0 hidden h-auto w-2/6 select-none sm:block"
           />

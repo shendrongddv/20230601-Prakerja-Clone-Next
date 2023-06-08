@@ -20,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${fontBody.className} text-base text-[#142b72]`}>
+      <body
+        className={`${fontBody.className} relative min-h-full text-base text-[#142b72]`}
+      >
         <Navbar />
         {children}
         <Footer />
