@@ -44,6 +44,7 @@ const SectionHero = () => {
               alt="image"
               width={403.52}
               height={381}
+              loading="eager"
               className="absolute -bottom-[40px]"
             />
           </div>
