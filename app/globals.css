@@ -11,17 +11,32 @@
 }
 
 .container {
-  @apply mx-auto max-w-6xl;
+  @apply mx-auto max-w-[1140px];
 }
 
 .btn {
-  @apply max-w-max rounded-full px-6 py-3 text-sm font-bold text-white transition hover:shadow-lg;
+  @apply max-w-max rounded-full border-2 px-4 py-2 text-sm font-semibold leading-none text-white transition transition-colors duration-300 ease-linear hover:shadow-lg;
+}
+
+.btn-primary-outline {
+  @apply border-primary-400 text-primary-400 hover:bg-primary-400 hover:text-white;
 }
 
 .btn-accent {
-  @apply bg-red-500 text-white transition-colors hover:bg-red-600;
+  @apply border-red-500 bg-red-500 text-white transition-colors hover:border-red-600 hover:bg-red-600;
+}
+
+.btn-white-outline {
+  @apply border-white text-white hover:bg-white hover:text-primary-400;
 }
 
 .bg-image-1 {
   @apply bg-[url(/home-step-cta-bg.webp)] bg-cover bg-center bg-no-repeat;
+}
+
+.background-1 {
+  background: url(/background-1.svg);
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }

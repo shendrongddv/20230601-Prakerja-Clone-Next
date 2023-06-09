@@ -2,8 +2,6 @@ import "./globals.css";
 import { Inter, Rubik } from "next/font/google";
 
 // Components
-import Navbar from "@/components/navbar/Navbar";
-import Footer from "@/components/footer/Footer";
 
 const fontBody = Rubik({ subsets: ["latin"] });
 
@@ -23,9 +21,7 @@ export default function RootLayout({
       <body
         className={`${fontBody.className} relative min-h-full text-base text-[#142b72]`}
       >
-        <Navbar />
-        {children}
-        <Footer />
+        <main>{children}</main>
       </body>
     </html>
   );

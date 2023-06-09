@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const HeroB = () => {
   return (
-    <section className="isolate bg-[url(/bg-1.svg)] bg-cover bg-center bg-no-repeat px-6 max-sm:pt-10">
+    <section className="isolate bg-[url(/bg-1.svg)] bg-cover bg-center bg-no-repeat px-6 max-sm:pt-24">
       <div className="container relative flex min-h-screen flex-col items-center justify-center">
         <div className="mx-auto flex w-full flex-col items-center text-center sm:w-2/4">
           <h1 className="h1 text-4xl font-semibold text-white sm:text-5xl">
@@ -24,7 +24,10 @@ const HeroB = () => {
               placeholder="Masukkan e-mail kamu"
               className="w-full rounded-full border-none bg-white/50 text-slate-500 placeholder-gray-500"
             />
-            <Link href="/"
+            <Link
+              href="/"
+              role="button"
+              aria-label="Button label"
               className="absolute right-0 top-1/2 z-10 mr-2 flex aspect-square -translate-y-1/2 items-center justify-center rounded-full bg-[#4f8fda] p-2 shadow hover:shadow-lg"
             >
               <AiOutlineArrowRight className="text-lg text-white" />
