@@ -5,8 +5,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const SectionHero = () => {
   return (
-    <section className="background-1 relative px-6">
-      <div className="container relative z-20 flex min-h-screen flex-col items-center justify-center">
+    <section className="background-1 px-6 pb-10">
+      <div className="container relative z-20 flex min-h-screen flex-col items-center justify-center overflow-hidden">
         <div className="flex w-full flex-col items-center justify-center text-center text-white sm:w-1/2">
           <h1 className="text-3xl font-medium max-sm:pt-28 sm:text-5xl">
             Gali potensi dirimu dengan Kartu Prakerja
@@ -38,13 +38,15 @@ const SectionHero = () => {
           </span>
 
           {/* Image Center */}
-          <Image
-            src="/hero-image-1.png"
-            alt="image"
-            width={403.52}
-            height={381}
-            className="mt-8 flex sm:hidden"
-          />
+          <div className="relative mt-8 flex h-[381px] w-[403.52px] overflow-hidden sm:hidden">
+            <Image
+              src="/hero-image-1.png"
+              alt="image"
+              width={403.52}
+              height={381}
+              className="absolute -bottom-[40px]"
+            />
+          </div>
         </div>
 
         {/* Image Left */}
@@ -53,7 +55,7 @@ const SectionHero = () => {
           alt="image"
           width={403.52}
           height={381}
-          className="absolute bottom-0 left-0 hidden h-[381px] w-auto sm:flex"
+          className="absolute -bottom-[40px] left-0 hidden h-[381px] w-auto sm:flex"
         />
 
         {/* Image Right */}
@@ -62,10 +64,10 @@ const SectionHero = () => {
           alt="image"
           width={430.92}
           height={381}
-          className="absolute bottom-[25px] right-0 hidden h-[381px] w-auto sm:flex"
+          className="absolute -bottom-[40px] right-0 hidden h-[381px] w-auto sm:flex"
         />
       </div>
-      <div className="absolute bottom-0 left-0 right-0 z-20 h-10 rounded-tl-[40px] rounded-tr-[40px] bg-white"></div>
+      {/* <div className="absolute bottom-0 left-0 right-0 z-20 h-10 rounded-tl-[40px] rounded-tr-[40px] bg-white"></div> */}
     </section>
   );
 };

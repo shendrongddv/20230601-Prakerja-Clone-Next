@@ -37,6 +37,20 @@
 .background-1 {
   background: url(/background-1.svg);
   background-position: center;
-  background-size: auto 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-2 {
+  background: url(/background-2.svg);
+  background-position: 50% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.background-3 {
+  background: url(/Group1.svg);
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
