@@ -97,7 +97,7 @@ const SectionStep = () => {
                 Belajar gratis, dapat sertifikat dan insentif pula. Dengan Kartu
                 Prakerja, raih masa depan lebih cerah!
               </p>
-              <Link href="/" className="btn btn-accent my-10">
+              <Link href="/" className="btn btn-accent mt-10 max-sm:mb-10">
                 Daftar Sekarang
               </Link>
             </div>
