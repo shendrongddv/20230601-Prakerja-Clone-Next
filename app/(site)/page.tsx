@@ -1,3 +1,4 @@
+import SectionBlog from "@/components/section/SectionBlog";
 import SectionHero from "@/components/section/SectionHero";
 import SectionIntro from "@/components/section/SectionIntro";
 import SectionMitra from "@/components/section/SectionMitra";
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionStep />
       <SectionMitra />
       <SectionReview />
+      <SectionBlog />
     </>
   );
 }
