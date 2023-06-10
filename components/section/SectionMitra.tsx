@@ -93,7 +93,6 @@ const SectionMitra = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 h-36 w-screen bg-[url(/Vector.svg)] bg-cover bg-top bg-no-repeat"></div>
     </section>
   );
 };
